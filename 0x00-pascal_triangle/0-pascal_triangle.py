@@ -1,6 +1,9 @@
 #!/usr/bin/python3
+''' creates an algorithm for pascals triangle '''
+
 
 def pascal_triangle(n):
+    ''' function for pascals triangle '''
     if n <= 0:
         return []
 
